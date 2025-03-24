@@ -1,0 +1,23 @@
+[
+    {
+      "question": "What services does your agency offer?",
+      "answer": "Our agency specializes in providing a comprehensive range of design and development services, including web design and development, UX/UI design, branding, logo design, mobile app development, and digital marketing."
+    },
+    {
+      "question": "How much do your services cost?",
+      "answer": "The cost of our services depends on the specific requirements of each project. We offer customized solutions to meet the unique needs and budget of every client. Contact us for a personalized quote."
+    },
+    {
+      "question": "How long does it take to complete a project?",
+      "answer": "The duration of a project depends on its complexity and scope. Once we have a clear understanding of your requirements, we can provide a timeline for completion."
+    },
+    {
+      "question": "What is your design process?",
+      "answer": "Our design process involves several stages, including research and discovery, concept development, design and development, testing, and final delivery. We work closely with our clients to ensure their vision is realized and their needs are met."
+    },
+    {
+      "question": "How do you ensure the quality of your work?",
+      "answer": "We have a team of highly skilled and experienced designers and developers who follow industry best practices and adhere to strict quality standards. We also conduct thorough testing and quality assurance to ensure that the final product meets our clients' expectations."
+    }
+    
+  ]

@@ -1,0 +1,82 @@
+{
+  "pastries": [
+    {
+      "image": "images/Nutella_Chocolate_Cookies.jpeg",
+      "description": "Delicious flaky pastry with a savory filling."
+    },
+    {
+      "image": "images/Nutella_Chocolate_Cookies.jpeg",
+      "description": "Sweet pastry with a custard filling and fruit topping."
+    },
+    {
+      "image": "images/Nutella_Chocolate_Cookies.jpeg",
+      "description": "A croissant with butter."
+    },
+    {
+      "image": "images/Nutella_Chocolate_Cookies.jpeg",
+      "description": "Delicious flaky pastry with a savory filling."
+    },
+    {
+      "image": "images/Nutella_Chocolate_Cookies.jpeg",
+      "description": "Sweet pastry with a custard filling and fruit topping."
+    },
+    {
+      "image": "images/Nutella_Chocolate_Cookies.jpeg",
+      "description": "A croissant with butter."
+    }
+  ],
+  "cakes": [
+    {
+      "image": "images/Pineappledonut.jpeg",
+      "description": "Chocolate cake with buttercream frosting."
+    },
+    {
+      "image": "images/Pineappledonut.jpeg",
+      "description": "Vanilla cake with strawberry filling."
+    },
+    {
+      "image": "images/Pineappledonut.jpeg",
+      "description": "Red Velvet Cake."
+    },
+    {
+      "image": "images/Pineappledonut.jpeg",
+      "description": "Chocolate cake with buttercream frosting."
+    },
+    {
+      "image": "images/Pineappledonut.jpeg",
+      "description": "Vanilla cake with strawberry filling."
+    },
+    {
+      "image": "images/Pineappledonut.jpeg",
+      "description": "Red Velvet Cake."
+    }
+  ],
+  "cookies": [
+    {
+      "image": "images/Nutella_Chocolate_Cookies.jpeg",
+      "description": "Chocolate chip cookies with walnuts."
+    },
+    {
+      "image": "images/Nutella_Chocolate_Cookies.jpeg",
+      "description": "Oatmeal raisin cookies with cinnamon."
+    },
+    {
+      "image": "images/Nutella_Chocolate_Cookies.jpeg",
+      "description": "Peanut butter cookies."
+    }
+  ],
+  "pies": [
+    {
+      "image": "images/Nutella_Chocolate_Cookies.jpeg",
+      "description": "Apple pie with a flaky crust."
+    },
+    {
+      "image": "images/Nutella_Chocolate_Cookies.jpeg",
+      "description": "Pumpkin pie with a spiced filling."
+    },
+    {
+      "image": "images/Nutella_Chocolate_Cookies.jpeg",
+      "description": "Cherry pie."
+    }
+  ]
+}
