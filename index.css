@@ -148,7 +148,7 @@ body {
     display: inline-block;
     text-align: center;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
@@ -269,29 +269,7 @@ body {
 
 }
 
-.form-row {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-}
 
-
-
-.form-col {
-    flex: 1;
-}
-
-.form-select {
-    margin-top: 0.25rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    width: 100%;
-    border-bottom: 2px solid #D1D5DB;
-    background-color: transparent;
-    outline: none;
-    color: #828282;
-    font-size: 0.875rem;
-}
 
 .required-asterisk {
     color: rgb(246, 118, 72);
@@ -307,17 +285,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
     color: #fff;
-    width: 176px;
-    height: 47px;
-    padding: 5px 30px;
+    padding: 10px 30px;
     border: none;
     background: rgb(246, 118, 72);
     border-radius: 5px 30px;
     cursor: pointer;
 }
 
+textarea{
+    padding: 20px;
+}
 
 /* Modal Styles */
 .modal {
@@ -436,8 +414,8 @@ body {
         gap: 1.5rem;
     }
     .form-button {
-        width: 196px;
-        height: 53px;
+        /* width: 196px;
+        height: 53px; */
     }
     
     
@@ -591,7 +569,7 @@ body {
   
   #ticker-content {
     display: inline-block;
-    animation: ticker-scroll 20s linear infinite; /* Adjust speed as needed */
+    animation: ticker-scroll 20s linear infinite; 
   }
   
   @keyframes ticker-scroll {

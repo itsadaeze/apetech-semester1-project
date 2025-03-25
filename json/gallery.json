@@ -1,0 +1,18 @@
+[
+    {
+      "title": "click to see more cakes",
+      "images": ["images/gallery/cake/6cakejpeg.jpeg", "images/gallery/cake/5cakejpeg.jpeg",  "images/gallery/cake/4cake.jpeg", "images/gallery/cake/3cake.jpeg", "images/gallery/cake/2cakejpeg.jpeg", "images/gallery/cake/1cake.jpeg"]
+    },
+      {
+        "title": "click to see more pastries",
+      "images": ["images/gallery/pastry/6pastry.jpeg", "images/gallery/pastry/5pastry.jpeg",  "images/gallery/pastry/4pastry.jpeg", "images/gallery/pastry/3pastry.jpeg", "images/gallery/pastry/2pastry.jpeg", "images/gallery/pastry/1pastry.jpeg"]
+    },
+      {
+        "title": "click to see more cookies",
+      "images": ["images/gallery/cookies/5cookies.jpeg", "images/gallery/cookies/4cookies.jpeg",  "images/gallery/cookies/3cookies.jpeg", "images/gallery/cookies/2cookies.jpeg", "images/gallery/cookies/1cookies.jpeg"]
+    },
+      {
+        "title": "click to see more pie",
+      "images": ["images/gallery/pie/6pie.jpeg", "images/gallery/pie/5pie.jpeg",  "images/gallery/pie/4piejpeg.jpeg", "images/gallery/pie/3pie.jpeg", "images/gallery/pie/2pie.jpeg", "images/gallery/pie/1pie.jpeg"]
+    }
+  ]

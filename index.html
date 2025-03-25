@@ -22,9 +22,9 @@
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
              <li><a href="#about">About</a></li>
-             <li><a href="#gallery">Gallery</a></li>
+             <li><a href="#gallery-container">Gallery</a></li>
              <li class="dropdown">
-                <a href="#product">Products</a>
+                <a href="#product">Products </a>
                 <div class="dropdown-content">
                     <select id="navbarPastrySelect">
                         <option value="">Select an item</option>
@@ -97,7 +97,7 @@
             <h2 id="popupTitle"></h2>
             <img id="popupImage" src="" alt="Popup Image" >
             <p id="popupDescription"></p>
-            <button onclick="closePopup()">Close</button>
+            <button onclick="closePopup()" class="form-button">Close</button>
         </div>
 
         </div>
@@ -111,10 +111,19 @@
     </div> 
 
     <!-- GALLERY -->
-    <div>
-        <h1 class="form-title">Our <span>Gallery</span></h1>  
-     <div class="gallery" id="image-gallery"></div>
+    <div id="gallery-container">
+    <h1 class="form-title"> Our <span>Gallery</span> </h1>
+    <div class="gallery" id="gallery"></div>
+
+    <div class="gallerypopup" id="galleryimagePopup">
+        <h2 class="gallerypopup-title" id="gallerypopupTitle"></h2>
+        <div class="gallerypopupImages" id="gallerypopupImages"></div>
+        <button class="galleryclose-button form-button" onclick="closeGalleryPopup()" >Close</button>
+    </div>
+
+    <div class="galleryoverlay" id="galleryoverlay"></div>
    </div>
+    
    <!-- FEEDBACK AND RATING -->
     <div class="feedback-container">
         <h1 class="form-title">Rate Our <span>Products</span></h1>
