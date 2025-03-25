@@ -278,7 +278,14 @@ body {
 .form-button-container {
     margin-top: 0.8rem;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+.conmpanydetails{
+  color: #747070;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 0;
 }
 
 .form-button {
@@ -413,10 +420,7 @@ textarea{
         align-items: center;
         gap: 1.5rem;
     }
-    .form-button {
-        /* width: 196px;
-        height: 53px; */
-    }
+    
     
     
 }
@@ -529,6 +533,10 @@ textarea{
         background-color: transparent;
         outline: none;
     
+    }
+    .form-button-container{
+        display: flex;
+        flex-direction: column;
     }
     .footerlinks{
     

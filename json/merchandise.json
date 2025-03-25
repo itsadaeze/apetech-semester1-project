@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Bakerz Bite Mug",
+      "image": "mug.jpg",
+      "category": "Mugs"
+    },
+    {
+      "name": "Bakerz Bite Bag",
+      "image": "bag.jpg",
+      "category": "Bags"
+    },
+    {
+      "name": "Bakerz Bite Glass",
+      "image": "glass.jpg",
+      "category": "Glasses"
+    },
+    {
+      "name": "Bakerz Bite Tray",
+      "image": "tray.jpg",
+      "category": "Trays"
+    },
+    {
+      "name": "Bakerz Bite Mug2",
+      "image": "mug2.jpg",
+      "category": "Mugs"
+    },
+    {
+      "name": "Bakerz Bite Bag2",
+      "image": "bag2.jpg",
+      "category": "Bags"
+    },
+    {
+      "name": "Bakerz Bite Glass 2",
+      "image": "glass2.jpg",
+      "category": "Glasses"
+    },
+    {
+      "name": "Bakerz Bite Tray 2",
+      "image": "tray2.jpg",
+      "category": "Trays"
+    }
+  ]
