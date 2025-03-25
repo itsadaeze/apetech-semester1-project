@@ -1,42 +1,42 @@
 [
     {
       "name": "Bakerz Bite Mug",
-      "image": "mug.jpg",
+      "image": "images/Fluffige_Pancakes.jpeg",
       "category": "Mugs"
     },
     {
       "name": "Bakerz Bite Bag",
-      "image": "bag.jpg",
+      "image": "images/Fluffige_Pancakes.jpeg",
       "category": "Bags"
     },
     {
       "name": "Bakerz Bite Glass",
-      "image": "glass.jpg",
+      "image": "images/Fluffige_Pancakes.jpeg",
       "category": "Glasses"
     },
     {
       "name": "Bakerz Bite Tray",
-      "image": "tray.jpg",
+      "image": "images/Fluffige_Pancakes.jpeg",
       "category": "Trays"
     },
     {
       "name": "Bakerz Bite Mug2",
-      "image": "mug2.jpg",
+      "image": "images/Fluffige_Pancakes.jpeg",
       "category": "Mugs"
     },
     {
       "name": "Bakerz Bite Bag2",
-      "image": "bag2.jpg",
+      "image": "images/Fluffige_Pancakes.jpeg",
       "category": "Bags"
     },
     {
       "name": "Bakerz Bite Glass 2",
-      "image": "glass2.jpg",
+      "image": "images/Fluffige_Pancakes.jpeg",
       "category": "Glasses"
     },
     {
       "name": "Bakerz Bite Tray 2",
-      "image": "tray2.jpg",
+      "image": "images/Fluffige_Pancakes.jpeg",
       "category": "Trays"
     }
   ]

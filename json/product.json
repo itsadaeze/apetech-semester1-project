@@ -2,159 +2,159 @@
   "pastries": [
     { "title": "Italian Cannoncini(Cream Horns)",
       "image": "images/pasteries/ItalianCreamStuffedCannoncini(Cream Horns).jpeg",
-      "description": "Delicious flaky pastry with a savory filling."
+      "description": "Italian Cannoncini, also known as Cream Horns, are made with flaky puff pastry.  The pastry is shaped into cones around metal molds, baked until golden brown, and then filled with a creamy filling, typically a custard called crema pasticcera.  "
     },
     {
       "title": "French crossaints",
       "image": "images/pasteries/frenchcrossaints.jpeg",
-      "description": "Sweet pastry with a custard filling and fruit topping."
+      "description": "French Croissants are made from laminated dough (layers of butter and dough), rolled into crescents, proofed, and baked."
     },
     {
       "title": "Delicious Cruffins",
       "image": "images/pasteries/DeliciousCruffins.jpeg",
-      "description": "A croissant with butter."
+      "description": "Cruffins are a hybrid pastry made by proofing and baking laminated dough (like croissants) in muffin tins, then filling them with various creams or custards."
     },
     { "title": "Classic French Profiteroles",
       "image": "images/pasteries/ClassicFrenchProfiteroles.jpeg",
-      "description": "Delicious flaky pastry with a savory filling."
+      "description": "Classic French profiteroles are made from choux pastry, baked into small hollow balls, and then filled with cream or ice cream and often topped with chocolate sauce."
     },
     {
       "title": "Chocolate Croissant",
       "image": "images/pasteries/ChocolateCroissants.jpeg",
-      "description": "Sweet pastry with a custard filling and fruit topping."
+      "description": "Chocolate croissants are simply croissants with chocolate, typically sticks or batons, rolled into the dough before baking."
     },
     {
       "title": "Bomboloni Italian Doughnuts",
       "image": "images/pasteries/Bomboloni-ItalianDoughnuts.jpeg",
-      "description": "A croissant with butter."
+      "description": "Bomboloni are Italian doughnuts made from sweet yeast dough, fried until golden, and typically filled with pastry cream or other sweet fillings."
     }
   ],
   "cakes": [
     {
       "title": "White Chocolate Raspberry DreamCake",
       "image": "images/cakes/WhiteChocolateRaspberryDreamCake_ ASliceofHeaven.jpeg",
-      "description": "Chocolate cake with buttercream frosting."
+      "description": "White Chocolate Raspberry DreamCake typically involves baking cake layers, preparing a white chocolate cream filling, and assembling the cake with a raspberry filling. 1  The cake layers often use cake flour and require careful mixing of wet and dry ingredients. The white chocolate cream filling is made by melting white chocolate and combining it with cream."
     },
     {
       "title": "Black Velvet Cake",
       "image": "images/cakes/BlackVelvetCake.jpeg",
-      "description": "Vanilla cake with strawberry filling."
+      "description": "VBlack Velvet Cake is a chocolate cake with a dark, rich color and a velvety texture. It's made with cocoa powder, buttermilk, and often black food coloring for the intense color. The frosting is typically a cream cheese frosting."
     },
     {
       "title": "Red Velvet Cheesecake",
       "image": "images/cakes/RedVelvetCheesecake.jpeg",
-      "description": "Red Velvet Cake."
+      "description": "Red Velvet Cheesecake combines a classic red velvet cake base with a creamy cheesecake layer. The red velvet portion uses cocoa and red food coloring, while the cheesecake filling is made with cream cheese, sugar, and eggs."
     },
     {
       "title": "Easy Banana Butter Cake",
       "image": "images/cakes/EasyBananaButterCake Light,Moist&Buttery} _ Foodelicacy.jpeg",
-      "description": "Chocolate cake with buttercream frosting."
+      "description": "Easy Banana Butter Cake is made by combining mashed bananas, butter, sugar, eggs, flour, and baking powder. The ingredients are mixed until smooth, then baked until golden."
     },
     {
       "title": "Cream French Cake",
       "image": "images/cakes/creamfrenchcake.jpeg",
-      "description": "Vanilla cake with strawberry filling."
+      "description": "French cream cakes: delicate sponge, generous creamy fillings (pastry cream, whipped cream), often layered with fruit or chocolate."
     },
     {
       "title": "Chocolate Strawberry Cake",
       "image": "images/cakes/ChocolateStrawberryCake.jpeg",
-      "description": "Red Velvet Cake."
+      "description": "RChocolate Strawberry Cake combines chocolate cake layers with a strawberry filling and frosting. The chocolate cake is made with cocoa powder, and the strawberry elements use fresh or preserved strawberries, often in a buttercream or cream cheese frosting."
     }
   ],
   "cookies": [
     {
       "title": "RaspberrySwirl Shortbread Cookies",
       "image": "images/cookies/IrresistibleRaspberrySwirl ShortbreadCookies.jpeg",
-      "description": "Chocolate chip cookies with walnuts."
+      "description": "Raspberry Swirl Shortbread Cookies are made with a buttery shortbread dough that's swirled with a raspberry jam or puree. The shortbread base typically uses butter, sugar, and flour, while the raspberry swirl is created by spreading or marbling the jam into the dough before baking."
     },
     {
       "title": "Danish Butter Cookies",
       "image": "images/cookies/DanishButterCookies.jpeg",
-      "description": "Oatmeal raisin cookies with cinnamon."
+      "description": "Danish Butter Cookies are made from a simple dough of butter, sugar, and flour, often with vanilla or other flavorings. They're typically piped or shaped into various forms and baked until golden."
     },
     {
       "title": "Cookiesde Chocolate Confeitos",
       "image": "images/cookies/CookiesdeChocolateConfeitos.jpeg",
-      "description": "Peanut butter cookies."
+      "description": "Cookies de Chocolate Confeitos\" translates to Chocolate Sprinkles Cookies.\" They're chocolate cookies decorated with sprinkles or other small, colorful candies. 1  The cookie dough is usually a basic chocolate cookie recipe, and the confeitos (sprinkles) are added before or after baking."
     },
     {
       "title": "Condensed Milk Cookies",
       "image": "images/cookies/CondensedMilkCookies.jpeg",
-      "description": "Chocolate chip cookies with walnuts."
+      "description": "Condensed Milk Cookies are made by combining condensed milk with butter, flour, and often other ingredients like vanilla or chocolate chips. The condensed milk acts as a sweetener and binder, creating a chewy, sweet cookie"
     },
     {
       "title": "Classic Ginger breadMen Cookies",
       "image": "images/cookies/ClassicGingerbreadMenCookies.jpeg",
-      "description": "Oatmeal raisin cookies with cinnamon."
+      "description": "Classic Gingerbread Men Cookies are made from a spiced dough containing ginger, cinnamon, and molasses. The dough is rolled out, cut into the distinctive gingerbread man shape, and baked. They are often decorated with icing."
     },
     {
       "title": "Chocolate Chip Cookies ",
       "image": "images/cookies/ChocolateChipCookies.jpeg",
-      "description": "Peanut butter cookies."
+      "description": "Chocolate chip cookies are classic treats made from a dough of butter, sugar, flour, eggs, and vanilla, with chocolate chips mixed in. They're baked until golden brown, resulting in a sweet, chewy, or crispy cookie with melted chocolate pieces."
     }
   ],
   "pies": [
     {
       "title": "The Ultimate CherryPie",
       "image": "images/pie/TheUltimateCherryPie.jpeg",
-      "description": "Apple pie with a flaky crust."
+      "description": "Cherry pie: buttery crust, sweet and tart cherry filling thickened with sugar and starch, often with added flavorings."
     },
     {
       "title": "Texas Pecan Pie",
       "image": "images/pie/TexasPecanPie.jpeg",
-      "description": "Pumpkin pie with a spiced filling."
+      "description": "exas Pecan Pie is a sweet pie with a filling made primarily of pecans, corn syrup, sugar, butter, and eggs. It has a rich, gooey texture and a distinct pecan flavor."
     },
     {
       "title": "Savory Hand Pies",
       "image": "images/pie/SavoryHandPies.jpeg",
-      "description": "Cherry pie."
+      "description": "Savory hand pies: small, baked pastries with a flaky crust, filled with a cooked mixture of meats, vegetables, cheeses, and spices, offering a portable savory meal."
     },
     {
       "title": "Old Fashioned Cornish Beef Pasties",
       "image": "images/pie/OldFashionedCornishBeefPasties.jpeg",
-      "description": "Apple pie with a flaky crust."
+      "description": "Cornish Beef Pasties: D-shaped pastry filled with diced beef, potatoes, swede, and onions, baked until golden.."
     },
     {
       "title": "Homemade Cherry Pie",
       "image": "images/pie/HomemadeCherryPie.jpeg",
-      "description": "Pumpkin pie with a spiced filling."
+      "description": "Homemade Cherry Pie: flaky, buttery crust filled with a sweet and tart cherry mixture, baked until the crust is golden and the filling is bubbly."
     },
     {
       "title": "Fresh Apple Pie",
       "image": "images/pie/FreshApplePie.jpeg",
-      "description": "Cherry pie."
+      "description": "Fresh Apple Pie: flaky, buttery crust filled with sliced apples, sugar, and spices (cinnamon, nutmeg), baked until golden brown with a tender, bubbly filling."
     }
   ],
   "cupcakes": [
     {
       "title": "Vanilla Cupcakes with Sweet Buttercream Frosting",
       "image": "images/cupcake/VanillaCupcakeswithSweetButtercreamFrosting.jpeg",
-      "description": "Apple pie with a flaky crust."
+      "description": "Vanilla cupcakes: moist vanilla cake base, topped with a smooth, sweet buttercream frosting, often with variations in flavor or decoration."
     },
     {
       "title": "Strawberry Cupcakes Recipe",
       "image": "images/cupcake/StrawberryCupcakesRecipe.jpeg",
-      "description": "Pumpkin pie with a spiced filling."
+      "description": "Strawberry Cupcakes: moist cake with strawberry puree or extract, topped with a creamy strawberry or vanilla frosting, sometimes with fresh strawberry garnish."
     },
     {
       "title": "Red Velvet Cupcakes",
       "image": "images/cupcake/RedVelvetCupcakes.jpeg",
-      "description": "Cherry pie."
+      "description": "Red Velvet Cupcakes: distinctive red-tinted, lightly cocoa-flavored cake, topped with a smooth, tangy cream cheese frosting, often with a velvety texture."
     },
     {
       "title": "Moist Nutella Cupcakes",
       "image": "images/cupcake/MoistNutellaCupcakes.jpeg",
-      "description": "Apple pie with a flaky crust."
+      "description": "Moist Nutella Cupcakes: rich, moist cupcakes with Nutella incorporated into the cake batter, topped with a Nutella-flavored or chocolate frosting."
     },
     {
       "title": "Heart Topped Cupcakes",
       "image": "images/cupcake/Heart-ToppedCupcakes.jpeg",
-      "description": "Pumpkin pie with a spiced filling."
+      "description": "Heart Topped Cupcake with heart-shaped decorations, often made from frosting or candy."
     },
     {
       "title": "Cookies And Cream Cupcakes",
       "image": "images/cupcake/CookiesAndCreamCupcakes.jpeg",
-      "description": "Cherry pie."
+      "description": "Cookies and Cream Cupcakes: chocolate or vanilla cake with crushed Oreo cookies, topped with cookies and cream frosting.."
     }
   ]
 }

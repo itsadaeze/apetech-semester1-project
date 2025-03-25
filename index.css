@@ -367,7 +367,48 @@ textarea{
     cursor: pointer;
 }
 
-
+/* OFFER LISTING */
+.offer-conatiner{
+    padding: 20px;
+    background-color: #fff8f0;
+}
+.offer-cards {
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+   
+  }
+  
+  .offer-card {
+    width: 300px;
+    background-color: #fffaf0;
+    border: 1px solid #f5deb3;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .offer-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .offer-card h3 {
+    color: #8b4513;
+    margin-bottom: 10px;
+  }
+  
+  .offer-card p {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .offer-card strong {
+    display: block;
+    margin-bottom: 8px;
+  }
 
 
 /* Footer */
@@ -523,6 +564,9 @@ textarea{
         display: none;
     }
 
+    
+
+      
       /* FORM */
     .form-input {
         margin-top: 0.25rem;
