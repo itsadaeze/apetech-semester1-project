@@ -1,0 +1,51 @@
+/* GALLERY */
+.gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.gallery img {
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.feedback-container {
+    padding: 20px;
+}
+
+.feedback-container textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.rating-stars {
+    display: inline-block;
+}
+
+.rating-stars span {
+    font-size: 24px;
+    cursor: pointer;
+    color: gray;
+}
+
+.rating-stars span.active {
+    color: gold;
+}
+
+#feedback-display {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+#feedback-display div {
+    margin-bottom: 10px;
+}
+
+#feedback-display strong{
+    font-weight: bold;
+}
+

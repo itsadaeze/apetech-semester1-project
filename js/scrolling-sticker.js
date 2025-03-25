@@ -1,3 +1,6 @@
+ // footer
+ document.getElementById('currentYear').textContent = new Date().getFullYear();
+
 function updateTicker() {
     const now = new Date();
     const dateString = now.toLocaleDateString();

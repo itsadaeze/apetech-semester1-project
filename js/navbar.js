@@ -23,7 +23,7 @@ function toggleMenu() {
     }
 }
 async function fetchData() {
-    const response = await fetch('/json/pastryData.json');
+    const response = await fetch('json/pastryData.json');
     const data = await response.json();
     return data;
 }

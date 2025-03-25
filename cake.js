@@ -45,7 +45,7 @@ localStorage.setItem('visitorCount', visitorCount);
             const faqList = document.getElementById('faqList');
             let activeIndex = null;
     
-            fetch('/json/faqData.json')
+            fetch('json/faqData.json')
                 .then(response => response.json())
                 .then(faqData => {
                     faqData.forEach((faq, index) => {
@@ -94,5 +94,6 @@ localStorage.setItem('visitorCount', visitorCount);
                 .catch(error => console.error('Error fetching FAQ data:', error));
         });
 
-        // footer
-        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+
+       

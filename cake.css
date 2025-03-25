@@ -4,78 +4,7 @@ body {
     box-sizing: border-box;
 }
 
-/* Navbar section */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    color: black;
-    padding: 0px 5rem;
-}
-.logo{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
-#visitor-count {
-    font-size: 1.2em;
-    font-weight: bold;
-  }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-links li {
-    margin: 10px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    font-weight: 500;
-}
-.nav-links a:hover{
-    color: rgb(246, 118, 72);
-    font-weight: 500;
-}
-.nav-links a:active{
-    color: rgb(136, 40, 6);
-    font-weight: 500;
-}
-
-.burger {
-    display: none;
-    cursor: pointer;
-    font-size: 24px;
-}
-
-
-/* Dropdown Styles */
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    padding: 10px;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
 
   /* Card Styles */
   .card {
@@ -237,144 +166,6 @@ nav {
 }
 
 
-
-/* Product section */
-.product-container{
-    padding:1rem 1rem;
-    background-color: rgb(249, 235, 215);
-}
-
-#cake-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-
-.cake-card {
-    background: white;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    width: 250px;
-    border-radius: 15px;
-}
-
-#productimage {
-    width: 250px;
-    height: 300px;
-    border-radius: 15px;
-}
-
-#cake_name {
-    text-align: left;
-    padding: 0px 5px;
-    margin-top: 5px;
-}
-
-#cakeprice {
-    text-align: left;
-    padding: 0px 5px;
-    margin-top: -10px;
-}
-
-#cakeprice span {
-    color: black;
-    font-weight: bold;
-}
-
-#addtocartbtn {
-    width: 100%;
-    padding: 7px 0px;
-    border-radius: 7px;
-    border: none;
-    background-color: rgb(246, 118, 72);
-    color: white;
-    font-weight: bold;
-}
-
-#addtocartbtn:hover {
-    background-color: rgb(229, 64, 4);
-}
-
-#cart-icon {
-    position: fixed;
-    top: 15px;
-    right: 30px;
-    cursor: pointer;
-    background-color: none;
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
-#cart-popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 20px;
-    display: none;
-    z-index: 1001;
-    width: 25%;
-    border-radius: 20px;
-}
-
-#cart-popup h2 {
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-#cart-items-popup {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-#removebtn {
-    color: rgb(246, 118, 72);
-    font-size: 20px;
-}
-
-#blur-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-    z-index: 1000;
-}
-
-#filter-container {
-    margin: 10px;
-    padding: 10px 1rem;
-    border-bottom: 1px solid #eee;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-#filter-container label {
-    font-weight: bold;
-}
-
-#filter-container select {
-    width: 12%;
-    padding: 5px 5px;
-    border: 1px solid rgb(193, 191, 191);
-    border-radius: 5px;
-}
-
-#filter-container input {
-    width: 12%;
-    padding: 7px 10px;
-    border: 1px solid rgb(193, 191, 191);
-    border-radius: 5px;
-}
 
 
 /* Form Styles */
@@ -569,88 +360,6 @@ nav {
     cursor: pointer;
 }
 
-/* faq */
-.faq-container {
-    background-color: #FFF;
-}
-
-.faq-wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 0;
-}
-
-.faq-title {
-    color: black;
-    font-size: 24px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 0 1rem;
-    margin-top: 3rem;
-    letter-spacing: 0.05em;
-    font-weight: bold;
-    text-align: center;
-}
-
-.faq-title span {
-    color:  rgb(246, 118, 72);
-}
-
-.faq-list {
-    max-width: 1024px;
-    margin: 16px auto 48px;
-}
-
-.faq-item {
-    margin-bottom: 16px;
-}
-
-.faq-question {
-    cursor: pointer;
-    padding: 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.faq-question-text {
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-.faq-answer {
-    padding: 0 16px;
-    color: #333;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    line-height: 23.1px;
-    display: none; /* Initially hide answers */
-}
-
-.faq-divider {
-    margin-top: 8px;
-    background-color: #BDBDBD;
-}
-
-.arrow-up, .arrow-down {
-    width: 18px;
-    height: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.arrow-up {
-    color: white;
-    background: linear-gradient(to right, #6366F1, #8B5CF6);
-    border-radius: 50%;
-}
-
-.arrow-down {
-    background-color: #E5E7EB;
-    border-radius: 50%;
-}
 
 
 
@@ -688,7 +397,7 @@ nav {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 765px) {
     
     .form-subtitle {
         font-size: 14px;
@@ -709,22 +418,7 @@ nav {
         height: 53px;
     }
     
-    .faq-title {
-        font-size: 36px;
-    }
-
-    .faq-question-text {
-        font-size: 17px;
-    }
-
-    .arrow-up, .arrow-down {
-        width: 21px;
-        height: 21px;
-    }
-
-    .faq-answer {
-        line-height: 1.75;
-    }
+    
 }
 
 @media (min-width: 1024px) {
@@ -734,47 +428,12 @@ nav {
     .form-title {
         font-size: 48px;
     }
-    .faq-title {
-        font-size: 48px;
-    }
-
-    .faq-answer {
-        font-size: 20px;
-    }
+    
 }
 
 
 @media only screen and (max-width: 765px) {
-    nav{
-        padding: 0px 2rem;
-    }
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        background-color: white;
-        text-align: center;
-        padding: 20px 0;
-        opacity: 0;
-        animation-duration: 0.5s;
-        animation-fill-mode: forwards;
-    }
-
-    .nav-links.active {
-        display: flex;
-        animation-name: fadeIn;
-
-    }
-    .nav-links.inactive {
-        animation-name: fadeOut;
-    }
-
-    .burger, .close {
-        display: block;
-    }
+   
 
     /* PRODUCT SECTION */
     #cake-container {
@@ -882,57 +541,6 @@ nav {
 }
 
 
-
-/* GALLERY */
-.gallery {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
-    padding: 10px;
-}
-
-.gallery img {
-    height: 200px;
-    object-fit: cover;
-    cursor: pointer;
-}
-
-.feedback-container {
-    padding: 20px;
-}
-
-.feedback-container textarea {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.rating-stars {
-    display: inline-block;
-}
-
-.rating-stars span {
-    font-size: 24px;
-    cursor: pointer;
-    color: gray;
-}
-
-.rating-stars span.active {
-    color: gold;
-}
-
-#feedback-display {
-    margin-top: 20px;
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
-}
-
-#feedback-display div {
-    margin-bottom: 10px;
-}
-
-#feedback-display strong{
-    font-weight: bold;
-}
 
 
 

@@ -5,7 +5,7 @@ const feedbackDisplay = document.getElementById('feedback-display');
 const gallery = document.getElementById('image-gallery');
 let currentRating = 0;
 
-fetch('/json/images.json')
+fetch('json/images.json')
     .then(response => response.json())
     .then(data => {
         data.images.forEach(image => {
