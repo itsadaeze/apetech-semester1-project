@@ -1,4 +1,3 @@
-/* Navbar section */
 nav {
     display: flex;
     justify-content: space-between;
@@ -74,7 +73,7 @@ nav {
 
   @media only screen and (max-width: 765px) {
     nav{
-        padding: 0px 2rem;
+        padding: 0 2rem;
     }
     .nav-links {
         display: none;

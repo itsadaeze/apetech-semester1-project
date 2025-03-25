@@ -18,11 +18,12 @@
             <img src="images/logo.png" alt="" width="90">
             <div id="visitor-count">Visitors: <span id="count">0</span></div>
         </div>
+        <div>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-            <li class="dropdown">
+             <li><a href="#about">About</a></li>
+             <li><a href="#gallery">Gallery</a></li>
+             <li class="dropdown">
                 <a href="#product">Products</a>
                 <div class="dropdown-content">
                     <select id="navbarPastrySelect">
@@ -31,10 +32,16 @@
                         <option value="cakes">Cakes</option>
                         <option value="cookies">Cookies</option>
                         <option value="pies">Pies</option>
+                        <option value="Cupcakes">Cupcakes</option>
                     </select>
                 </div>
             </li>
+             <li><a href="#faq">FAQ</a></li>
+            
+            <li><a href="#contact">Contact</a></li>
+            
         </ul>
+      </div>
         <div class="burger" onclick="toggleMenu()">☰</div>
         <div class="close" onclick="toggleMenu()" style="display: none;">×</div>
     </nav>
@@ -68,45 +75,34 @@
 
 
      <!-- PRODUCT -->
-     <ul>
-        <li class="dropdown">
-            <a href="#product">Products</a>
-            <div class="dropdown-content">
-                <select id="pastrySelect">
-                    <option value="">Select an item</option>
-                    <option value="pastries">Pastries</option>
-                    <option value="cakes">Cakes</option>
-                    <option value="cookies">Cookies</option>
-                    <option value="pies">Pies</option>
-                </select>
-           
-            </div>
-        </li>
-     </ul>
+     <div class="product-conatiner">
+
+     <h1 class="form-title">Our <span>Products</span></h1>
     
-  <!-- Product section -->
-<section id="productSelection">
-    <select id="sectionPastrySelect">
-        <option value="">Select an item</option>
-        <option value="pastries">Pastries</option>
-        <option value="cakes">Cakes</option>
-        <option value="cookies">Cookies</option>
-        <option value="pies">Pies</option>
-    </select>
-</section>
+        <!-- Product section -->
+        <section id="productSelection">
+            <select id="sectionPastrySelect">
+                <option value="">Select from our products</option>
+                <option value="pastries">Pastries</option>
+                <option value="cakes">Cakes</option>
+                <option value="cookies">Cookies</option>
+                <option value="pies">Pies</option>
+                <option value="cupcakes">Cupcakes</option>
+            </select>
+        </section>
 
-<section id="product"></section>
+        <section id="product"></section>
 
-<div id="popup" class="popup">
-    <h2 id="popupTitle"></h2>
-    <img id="popupImage" src="" alt="Popup Image" >
-    <p id="popupDescription"></p>
-    <button onclick="closePopup()">Close</button>
-</div>
+        <div id="popup" class="popup">
+            <h2 id="popupTitle"></h2>
+            <img id="popupImage" src="" alt="Popup Image" >
+            <p id="popupDescription"></p>
+            <button onclick="closePopup()">Close</button>
+        </div>
 
-
+        </div>
     <!-- FAQ -->
-   <div class="faq-container">
+   <div class="faq-container" id="faq">
     <div class="faq-wrapper">
         <h1 class="faq-title">Frequently Asked <span class="faq-title-highlight">Questions</span></h1>
         <div class="faq-list" id="faqList">
@@ -115,12 +111,13 @@
     </div> 
 
     <!-- GALLERY -->
-    <div class="gallery" id="image-gallery">
-    </div>
+    <div>
+        <h1 class="form-title">Our <span>Gallery</span></h1>  
+     <div class="gallery" id="image-gallery"></div>
+   </div>
    <!-- FEEDBACK AND RATING -->
     <div class="feedback-container">
-        <h1>RATE OUR PRODUCTS</h1>
-        <textarea id="feedback" placeholder="Enter your feedback"></textarea>
+        <h1 class="form-title">Rate Our <span>Products</span></h1>
         <div class="rating-stars">
             <span class="star" data-rating="1">&#9733;</span>
             <span class="star" data-rating="2">&#9733;</span>
@@ -128,7 +125,9 @@
             <span class="star" data-rating="4">&#9733;</span>
             <span class="star" data-rating="5">&#9733;</span>
         </div>
-        <button id="submit-feedback">Submit Feedback</button>
+        <textarea id="feedback" placeholder="Enter your feedback" rows="10"></textarea>
+       
+        <button id="submit-feedback" class="form-button">Submit Feedback</button>
 
         <div id="feedback-display">
             <h2>User Feedback:</h2>
@@ -137,7 +136,7 @@
 
   <!-- form -->
   <div class="bg-form-background">
-    <div class="form-container">
+    <div class="form-container" id="contact">
         <div class="form-header">
             <h1 class="form-title">Contact <span> Us</span></h1>
         </div>
@@ -157,8 +156,8 @@
                 
             
                 <div class="form-group">
-                    <label for="project" class="form-label">Project Details</label>
-                    <textarea type="text" id="project" name="project" rows="10" placeholder="Tell us more about your idea" class="form-input" required></textarea>
+                    <label for="project" class="form-label">Message</label>
+                    <textarea type="text" id="project" name="project" rows="10" placeholder="Tell us more about request" class="form-input" required></textarea>
                 </div>
                 <div class="form-button-container">
                     <button type="submit" class="form-button">
@@ -177,7 +176,7 @@
                     </div>
                     <div class="modal-text">
                         <p>
-                            Your proposal has been received by our team. We will get back to you as soon as possible with further information regarding your submission.
+                            Your request has been received by our team. We will get back to you as soon as possible with further information regarding your submission.
                         </p>
                         <button id="modalClose" class="modal-button">Okay</button>
                     </div>

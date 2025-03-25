@@ -1,0 +1,160 @@
+{
+  "pastries": [
+    { "title": "Italian Cannoncini(Cream Horns)",
+      "image": "images/pasteries/ItalianCreamStuffedCannoncini(Cream Horns).jpeg",
+      "description": "Delicious flaky pastry with a savory filling."
+    },
+    {
+      "title": "French crossaints",
+      "image": "images/pasteries/frenchcrossaints.jpeg",
+      "description": "Sweet pastry with a custard filling and fruit topping."
+    },
+    {
+      "title": "Delicious Cruffins",
+      "image": "images/pasteries/DeliciousCruffins.jpeg",
+      "description": "A croissant with butter."
+    },
+    { "title": "Classic French Profiteroles",
+      "image": "images/pasteries/ClassicFrenchProfiteroles.jpeg",
+      "description": "Delicious flaky pastry with a savory filling."
+    },
+    {
+      "title": "Chocolate Croissant",
+      "image": "images/pasteries/ChocolateCroissants.jpeg",
+      "description": "Sweet pastry with a custard filling and fruit topping."
+    },
+    {
+      "title": "Bomboloni Italian Doughnuts",
+      "image": "images/pasteries/Bomboloni-ItalianDoughnuts.jpeg",
+      "description": "A croissant with butter."
+    }
+  ],
+  "cakes": [
+    {
+      "title": "White Chocolate Raspberry DreamCake",
+      "image": "images/cakes/WhiteChocolateRaspberryDreamCake_ ASliceofHeaven.jpeg",
+      "description": "Chocolate cake with buttercream frosting."
+    },
+    {
+      "title": "Black Velvet Cake",
+      "image": "images/cakes/BlackVelvetCake.jpeg",
+      "description": "Vanilla cake with strawberry filling."
+    },
+    {
+      "title": "Red Velvet Cheesecake",
+      "image": "images/cakes/RedVelvetCheesecake.jpeg",
+      "description": "Red Velvet Cake."
+    },
+    {
+      "title": "Easy Banana Butter Cake",
+      "image": "images/cakes/EasyBananaButterCake Light,Moist&Buttery} _ Foodelicacy.jpeg",
+      "description": "Chocolate cake with buttercream frosting."
+    },
+    {
+      "title": "Cream French Cake",
+      "image": "images/cakes/creamfrenchcake.jpeg",
+      "description": "Vanilla cake with strawberry filling."
+    },
+    {
+      "title": "Chocolate Strawberry Cake",
+      "image": "images/cakes/ChocolateStrawberryCake.jpeg",
+      "description": "Red Velvet Cake."
+    }
+  ],
+  "cookies": [
+    {
+      "title": "RaspberrySwirl Shortbread Cookies",
+      "image": "images/cookies/IrresistibleRaspberrySwirl ShortbreadCookies.jpeg",
+      "description": "Chocolate chip cookies with walnuts."
+    },
+    {
+      "title": "Danish Butter Cookies",
+      "image": "images/cookies/DanishButterCookies.jpeg",
+      "description": "Oatmeal raisin cookies with cinnamon."
+    },
+    {
+      "title": "Cookiesde Chocolate Confeitos",
+      "image": "images/cookies/CookiesdeChocolateConfeitos.jpeg",
+      "description": "Peanut butter cookies."
+    },
+    {
+      "title": "Condensed Milk Cookies",
+      "image": "images/cookies/CondensedMilkCookies.jpeg",
+      "description": "Chocolate chip cookies with walnuts."
+    },
+    {
+      "title": "Classic Ginger breadMen Cookies",
+      "image": "images/cookies/ClassicGingerbreadMenCookies.jpeg",
+      "description": "Oatmeal raisin cookies with cinnamon."
+    },
+    {
+      "title": "Chocolate Chip Cookies ",
+      "image": "images/cookies/ChocolateChipCookies.jpeg",
+      "description": "Peanut butter cookies."
+    }
+  ],
+  "pies": [
+    {
+      "title": "The Ultimate CherryPie",
+      "image": "images/pie/TheUltimateCherryPie.jpeg",
+      "description": "Apple pie with a flaky crust."
+    },
+    {
+      "title": "Texas Pecan Pie",
+      "image": "images/pie/TexasPecanPie.jpeg",
+      "description": "Pumpkin pie with a spiced filling."
+    },
+    {
+      "title": "Savory Hand Pies",
+      "image": "images/pie/SavoryHandPies.jpeg",
+      "description": "Cherry pie."
+    },
+    {
+      "title": "Old Fashioned Cornish Beef Pasties",
+      "image": "images/pie/OldFashionedCornishBeefPasties.jpeg",
+      "description": "Apple pie with a flaky crust."
+    },
+    {
+      "title": "Homemade Cherry Pie",
+      "image": "images/pie/HomemadeCherryPie.jpeg",
+      "description": "Pumpkin pie with a spiced filling."
+    },
+    {
+      "title": "Fresh Apple Pie",
+      "image": "images/pie/FreshApplePie.jpeg",
+      "description": "Cherry pie."
+    }
+  ],
+  "cupcakes": [
+    {
+      "title": "Vanilla Cupcakes with Sweet Buttercream Frosting",
+      "image": "images/cupcake/VanillaCupcakeswithSweetButtercreamFrosting.jpeg",
+      "description": "Apple pie with a flaky crust."
+    },
+    {
+      "title": "Strawberry Cupcakes Recipe",
+      "image": "images/cupcake/StrawberryCupcakesRecipe.jpeg",
+      "description": "Pumpkin pie with a spiced filling."
+    },
+    {
+      "title": "Red Velvet Cupcakes",
+      "image": "images/cupcake/RedVelvetCupcakes.jpeg",
+      "description": "Cherry pie."
+    },
+    {
+      "title": "Moist Nutella Cupcakes",
+      "image": "images/cupcake/MoistNutellaCupcakes.jpeg",
+      "description": "Apple pie with a flaky crust."
+    },
+    {
+      "title": "Heart Topped Cupcakes",
+      "image": "images/cupcake/Heart-ToppedCupcakes.jpeg",
+      "description": "Pumpkin pie with a spiced filling."
+    },
+    {
+      "title": "Cookies And Cream Cupcakes",
+      "image": "images/cupcake/CookiesAndCreamCupcakes.jpeg",
+      "description": "Cherry pie."
+    }
+  ]
+}

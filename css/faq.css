@@ -6,7 +6,7 @@
 .faq-wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 40px 20px;
 }
 
 .faq-title {
@@ -82,7 +82,7 @@
 }
 
 @media (min-width: 765px) {
-
+    
     .faq-title {
         font-size: 36px;
     }
