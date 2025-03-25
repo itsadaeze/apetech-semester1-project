@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0Hhonpy0AIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="cake.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/faq.css">
     <link rel="stylesheet" href="css/gallery.css">
@@ -25,14 +25,13 @@
             <li class="dropdown">
                 <a href="#product">Products</a>
                 <div class="dropdown-content">
-                    <select id="pastrySelect">
+                    <select id="navbarPastrySelect">
                         <option value="">Select an item</option>
                         <option value="pastries">Pastries</option>
                         <option value="cakes">Cakes</option>
                         <option value="cookies">Cookies</option>
                         <option value="pies">Pies</option>
                     </select>
-               
                 </div>
             </li>
         </ul>
@@ -84,15 +83,26 @@
             </div>
         </li>
      </ul>
-     <section id="product">
-    </section>
     
-   <div id="popup" class="popup">
-     <p id="popupDescription"></p>
-     <button onclick="closePopup()">Close</button>
-   </div>
-   
-   <div id="overlay" class="overlay"></div>
+  <!-- Product section -->
+<section id="productSelection">
+    <select id="sectionPastrySelect">
+        <option value="">Select an item</option>
+        <option value="pastries">Pastries</option>
+        <option value="cakes">Cakes</option>
+        <option value="cookies">Cookies</option>
+        <option value="pies">Pies</option>
+    </select>
+</section>
+
+<section id="product"></section>
+
+<div id="popup" class="popup">
+    <h2 id="popupTitle"></h2>
+    <img id="popupImage" src="" alt="Popup Image" >
+    <p id="popupDescription"></p>
+    <button onclick="closePopup()">Close</button>
+</div>
 
 
     <!-- FAQ -->
@@ -107,9 +117,9 @@
     <!-- GALLERY -->
     <div class="gallery" id="image-gallery">
     </div>
-
+   <!-- FEEDBACK AND RATING -->
     <div class="feedback-container">
-        <h2>Feedback & Rating</h2>
+        <h1>RATE OUR PRODUCTS</h1>
         <textarea id="feedback" placeholder="Enter your feedback"></textarea>
         <div class="rating-stars">
             <span class="star" data-rating="1">&#9733;</span>
@@ -203,7 +213,7 @@
         
         
 
-    <script src="cake.js"></script>
+    <script src="index.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/gallery.js"></script>
     <script src="js/scrolling-sticker.js"></script>

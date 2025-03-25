@@ -6,19 +6,21 @@ body {
 
 
 
-  /* Card Styles */
   .card {
     border: 1px solid #ddd;
     padding: 10px;
     margin: 10px;
-    width: 200px;
+    width: 250px;
     display: inline-block;
     text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
     max-width: 100%;
-    height: auto;
+    height: 350px;
+    border-radius: 20px;
 }
 
 .popup {
@@ -31,8 +33,12 @@ body {
     padding: 20px;
     background-color: white;
     z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
+#popupImage{
+    width: 300px; height: 350px;  border-radius: 10px; margin-bottom: 10px;
+}
 .overlay {
     display: none;
     position: fixed;
@@ -44,9 +50,9 @@ body {
     z-index: 0;
 }
 
-  #product {
+#product {
     padding: 20px;
-  }
+}
 /* End of navbar section */
 
 /* Hero-Section */

@@ -1,23 +1,23 @@
 [
     {
-      "question": "What services does your agency offer?",
-      "answer": "Our agency specializes in providing a comprehensive range of design and development services, including web design and development, UX/UI design, branding, logo design, mobile app development, and digital marketing."
+      "question": "What types of baked goods do you offer?",
+      "answer": "We offer a wide variety of freshly baked goods, including custom cakes for all occasions (birthdays, weddings, anniversaries), cupcakes, cookies, pastries, breads, and seasonal treats. Check out our online menu or visit our shop to see our full selection!"
     },
     {
-      "question": "How much do your services cost?",
-      "answer": "The cost of our services depends on the specific requirements of each project. We offer customized solutions to meet the unique needs and budget of every client. Contact us for a personalized quote."
+      "question": " Do you offer custom cake designs?",
+      "answer": "Yes! We specialize in custom cake designs. Please provide us with your inspiration, theme, and desired size, and we'll work with you to create the perfect cake for your celebration. We recommend placing custom cake orders at least [Number] days in advance to ensure availability."
     },
     {
-      "question": "How long does it take to complete a project?",
-      "answer": "The duration of a project depends on its complexity and scope. Once we have a clear understanding of your requirements, we can provide a timeline for completion."
+      "question": "Do you cater to dietary restrictions or allergies?",
+      "answer": "We understand the importance of catering to various dietary needs. We offer gluten-free, vegan, and nut-free options. Please inform us of any allergies or dietary restrictions when placing your order, and we'll do our best to accommodate you. 1  While we take precautions, please be aware that our kitchen handles ingredients that contain allergens."
     },
     {
-      "question": "What is your design process?",
-      "answer": "Our design process involves several stages, including research and discovery, concept development, design and development, testing, and final delivery. We work closely with our clients to ensure their vision is realized and their needs are met."
+      "question": "How fresh are your baked goods?",
+      "answer": "Freshness is our priority! All our baked goods are made from scratch daily using high-quality ingredients. We recommend consuming our products on the same day for optimal freshness. For cakes and pastries, proper storage (as specified on the packaging or by our staff) can extend their enjoyment."
     },
     {
-      "question": "How do you ensure the quality of your work?",
-      "answer": "We have a team of highly skilled and experienced designers and developers who follow industry best practices and adhere to strict quality standards. We also conduct thorough testing and quality assurance to ensure that the final product meets our clients' expectations."
+      "question": "Can I order bulk orders for events or corporate gifts?",
+      "answer": "Absolutely! We welcome bulk orders for events, corporate gifts, and special occasions. Please contact us at [Email Address or Phone Number] or fill out the bulk order inquiry form on our website with your specific requirements, and we'll provide you with a customized quote and timeline. We offer discounts for large orders."
     }
     
   ]
