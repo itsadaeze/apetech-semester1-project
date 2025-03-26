@@ -137,6 +137,7 @@ fetch('json/merchandise.json')
         cardContainers.forEach(card => {
           card.style.width = '100%';
           card.style.margin = '10px 0';
+          card.style.overflowX = 'auto';
           
         });
       } else {
