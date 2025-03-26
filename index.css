@@ -440,10 +440,17 @@ textarea{
 .footer-links a {
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
 }
-
+.footer-links a:hover{
+    color: rgb(246, 118, 72);
+    font-weight: 500;
+}
+.footer-links a:active{
+    color: rgb(136, 40, 6);
+    font-weight: 500;
+}
 
 @media (min-width: 765px) {
     

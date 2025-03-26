@@ -1,42 +1,101 @@
 [
+  
+  {
+    "category": "trays",
+    "image": "images/merchandize/Wooden Serving Tray with Handles.jpeg",
+    "title": "Wooden Serving Tray with Handles"
+  },
+  {
+    "category": "glasses",
+    "image":"images/merchandize/Women'sFashionEyeglasses.jpeg",
+    "title": "Women's Fashion Eye glasses"
+  },
+  {
+    "category": "cups",
+    "image": "images/merchandize/Stone&MillCoffeeCups.jpeg",
+    "title": "Stone & Mill Coffee Cups"
+  },
+  {
+    "category": "watches",
+    "image": "images/merchandize/TimingSportWatch-SilverBlackOrange.jpeg",
+    "title": "Timing SportWatch Silver Orange"
+  },
     {
-      "name": "Bakerz Bite Mug",
-      "image": "images/Fluffige_Pancakes.jpeg",
-      "category": "Mugs"
-    },
+    "category": "bags",
+    "image":"images/merchandize/Chanel Bags .jpeg",
+    "title": "Chanel Bags"
+  },
+  {
+    "category": "trays",
+    "image": "images/merchandize/Krockery Porcelain Serving Plates.jpeg",
+    "title": "WKrockery Porcelain Serving Plates"
+  },
+  {
+    "category": "glasses",
+    "image":"images/merchandize/PremiumVector _ Black sunglassesjpeg.jpeg",
+    "title": "PremiumVector _ Black sunglasses"
+  },
+  {
+    "category": "cups",
+    "image": "images/merchandize/StanleyQuencherSteel.jpeg",
+    "title": "Stanley Quencher Steel"
+  },
+  {
+    "category": "watches",
+    "image": "images/merchandize/SquareQuartzFashionCasualLadiesWatch.jpeg",
+    "title": "SquareQuartzFashionCasualLadiesWatch"
+  },
     {
-      "name": "Bakerz Bite Bag",
-      "image": "images/Fluffige_Pancakes.jpeg",
-      "category": "Bags"
-    },
-    {
-      "name": "Bakerz Bite Glass",
-      "image": "images/Fluffige_Pancakes.jpeg",
-      "category": "Glasses"
-    },
-    {
-      "name": "Bakerz Bite Tray",
-      "image": "images/Fluffige_Pancakes.jpeg",
-      "category": "Trays"
-    },
-    {
-      "name": "Bakerz Bite Mug2",
-      "image": "images/Fluffige_Pancakes.jpeg",
-      "category": "Mugs"
-    },
-    {
-      "name": "Bakerz Bite Bag2",
-      "image": "images/Fluffige_Pancakes.jpeg",
-      "category": "Bags"
-    },
-    {
-      "name": "Bakerz Bite Glass 2",
-      "image": "images/Fluffige_Pancakes.jpeg",
-      "category": "Glasses"
-    },
-    {
-      "name": "Bakerz Bite Tray 2",
-      "image": "images/Fluffige_Pancakes.jpeg",
-      "category": "Trays"
-    }
-  ]
+    "category": "trays",
+    "image":"images/merchandize/Revista Artesanato.jpeg",
+    "title": "Revista Artesanato"
+  },
+  {
+    "category": "glasses",
+    "image": "images/merchandize/ReadingGlassesBlueLight.jpeg",
+    "title": "Reading Glasses BlueLight"
+  },
+  {
+    "category": "watches",
+    "image":"images/merchandize/MiniFocusUniqueMenWatches.jpeg",
+    "title": "Mini Focus Unique Men Watches"
+  },
+  {
+    "category": "bags",
+    "image": "images/merchandize/LOUIS VUITTON.jpeg",
+    "title": "LOUIS VUITTON"
+  },
+  {
+    "category": "bags",
+    "image": "images/merchandize/Lacoste.jpeg",
+    "title": "Lacoste"
+  },
+  {
+    "category": "trays",
+    "image": "images/merchandize/Krockery Porcelain Serving Plates.jpeg",
+    "title": "Krockery Porcelain Serving Plates"
+  },
+
+  {
+    "category": "watches",
+    "image": "images/merchandize/FashionWatchWomenWristwatches.jpeg",
+    "title": "Fashion Watch Women Wristwatches"
+  },
+  {
+    "category": "cups",
+    "image": "images/merchandize/CeramicCoffeeTeaMug.jpeg",
+    "title": "Ceramic Coffee TeaMug"
+  },
+
+  {
+    "category": "bags",
+    "image": "images/merchandize/Black & Milk Handbags.jpeg",
+    "title": "Black & Milk Handbags"
+  },
+  {
+    "category": "bags",
+    "image": "images/merchandize/blara bags Louis Vuittons.jpeg",
+    "title": "Blara bags Louis Vuittons"
+  }
+
+]

@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- META TAGS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Baker's Bite offers delicious, freshly baked breads, cakes, pastries, and more. Order online or visit our bakery today!">
@@ -13,19 +14,24 @@
     <meta name="author" content="Adaeze|Chinedu/BakersBite">
     <meta property="og:description" content="Freshly baked breads, cakes, and pastries. Order online or visit us!">
     <meta property="og:image" content="images/logo.png">
+    <!-- END OF META TAGS -->
+
+    <!-- CSS LINKING -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0Hhonpy0AIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/faq.css">
     <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/sitemap.css">
+    <!-- END OF CSS LINKING -->
     <title>Bakers Bite</title>
 </head>
 <body>
-    <!-- NavBar Section -->
+    <!--  NAV BAR SECTION -->
     <nav>
         <div class="logo">
             <img src="images/logo.png" alt="" width="90">
-            <div id="visitor-count">Visitors: <span id="count">0</span></div>
+            <div id="visitor-count">Visited: <span id="count">0</span></div>
         </div>
         <div>
         <ul class="nav-links">
@@ -48,15 +54,15 @@
              <li><a href="#faq">FAQ</a></li>
             
             <li><a href="#contact">Contact</a></li>
-            
+            <li><a href="#faq">SiteMAp</a></li>
         </ul>
       </div>
         <div class="burger" onclick="toggleMenu()">☰</div>
         <div class="close" onclick="toggleMenu()" style="display: none;">×</div>
     </nav>
-   
+   <!-- END OF NAVBAR SECTION -->
 
-    <!-- Hero Section -->
+    <!-- HERO SECTION -->
     <div class="hero-section">
         <div class="hero-text">
             <h1>Delicious and <span>Tasty</span></h1>
@@ -71,9 +77,10 @@
             <img src="images/hero-image3.jpg" alt="" class="herosecondimage">
         </div>  
     </div>
+   <!-- END OF HERO SECTION -->
 
 
-     <!-- About section -->
+     <!-- ABOUT SECTION -->
      <div class="about-container" id="about">
         <h1 class="form-title">About <span> Us</span></h1>
        <p class=" p-text">Our journey began with a simple dream: to spread happiness, one delicious treat at a time. From the comforting aroma of fresh-baked bread to the sweet indulgence of our signature cakes, we pour our hearts into every recipe. Whether you're celebrating a milestone, satisfying a craving, or just in need of a little pick-me-up, our bakery is here to make every moment a little sweeter.
@@ -81,14 +88,15 @@
         <p class="icon1">🍩 </p>
         <p class="icon2">🍪</p>
      </div>
+     <!-- END OF ABOUT SECTION -->
 
 
-     <!-- PRODUCT -->
+     <!-- PRODUCT SECTION -->
      <div class="product-conatiner">
 
-     <h1 class="form-title">Our <span>Products</span></h1>
+       <h1 class="form-title">Our <span>Products</span></h1>
     
-        <!-- Product section -->
+        
         <section id="productSelection">
             <select id="sectionPastrySelect">
                 <option value="">Select from our products</option>
@@ -111,174 +119,240 @@
 
         </div>
 
-        <!-- merchandise -->
-        <!-- <div class="merchandise-section">
-            <h1 class="form-title">Bakerz Bite <span>Merchandise</span></h1>
-            <div class="merchandise-filters">
-                <button data-filter="all">All Products</button>
-                <button data-filter="Mugs">Mugs</button>
-                <button data-filter="Bags">Bags</button>
-                <button data-filter="Glasses">Glasses</button>
-                <button data-filter="Trays">Trays</button>
+        <!-- END OF PRODUCT SECTION -->
+
+
+        <!-- MERCHANDIZE SECTION-->
+        <section class="merchandise-section">
+            <h1 class="form-title"> Our <span>Merchandise</span> </h1>
+            <div class="merchandise-filter">
+                <button class="merchandise-filter-btn active" data-filter="all">All</button>
+                <button class="merchandise-filter-btn" data-filter="bags">Bags</button>
+                <button class="merchandise-filter-btn" data-filter="glasses">Glasses</button>
+                <button class="merchandise-filter-btn" data-filter="cups">Cups</button>
+                <button class="merchandise-filter-btn" data-filter="trays">Trays</button>
+                <button class="merchandise-filter-btn" data-filter="watches">Watches</button>
             </div>
-            <div class="merchandise-product-grid" id="merchandiseProductGrid">
-            </div>
-        </div> -->
-
-        
-    <!-- FAQ -->
-   <div class="faq-container" id="faq">
-    <div class="faq-wrapper">
-        <h1 class="faq-title">Frequently Asked <span class="faq-title-highlight">Questions</span></h1>
-        <div class="faq-list" id="faqList">
-        </div>
-    </div>
-    </div> 
-
-    <!-- GALLERY -->
-    <div id="gallery-container">
-    <h1 class="form-title"> Our <span>Gallery</span> </h1>
-    <div class="gallery" id="gallery"></div>
-
-    <div class="gallerypopup" id="galleryimagePopup">
-        <h2 class="gallerypopup-title" id="gallerypopupTitle"></h2>
-        <div class="gallerypopupImages" id="gallerypopupImages"></div>
-        <button class="galleryclose-button form-button" onclick="closeGalleryPopup()" >Close</button>
-    </div>
-
-    <div class="galleryoverlay" id="galleryoverlay"></div>
-   </div>
     
-   <!-- FEEDBACK AND RATING -->
-    <div class="feedback-container">
-        <h1 class="form-title">Rate Our <span>Products</span></h1>
-        <div class="rating-stars">
-            <span class="star" data-rating="1">&#9733;</span>
-            <span class="star" data-rating="2">&#9733;</span>
-            <span class="star" data-rating="3">&#9733;</span>
-            <span class="star" data-rating="4">&#9733;</span>
-            <span class="star" data-rating="5">&#9733;</span>
-        </div>
-        <textarea id="feedback" placeholder="Enter your feedback" rows="10"></textarea>
-       
-        <button id="submit-feedback" class="form-button">Submit Feedback</button>
+            <div class="merchandise-cards">
+                </div>
+        </section>
+       <!--  END OF MERCHANDIZE SECTION-->
 
-        <div id="feedback-display">
-            <h2>User Feedback:</h2>
+        
+        <!-- FAQ  SECTION-->
+        <div class="faq-container" id="faq">
+        <div class="faq-wrapper">
+            <h1 class="faq-title">Frequently Asked <span class="faq-title-highlight">Questions</span></h1>
+            <div class="faq-list" id="faqList">
+            </div>
         </div>
-    </div>
-    <!-- OFFER -->
-    <div class="offer-conatiner">
-        <h1 class="form-title">Offer <span>Listing</span> </h1>
-        <div class="offer-cards">
-            <div class="offer-card">
-            <h3>Morning Delight: Buy 2 Pastries, Get 1 Free!</h3>
-            <p>Start your day with our delicious pastries! Buy any two and get a third one on us. Perfect with your morning coffee.</p>
-            </div>
-            <div class="offer-card">
-            <h3>Cake Special: 15% Off All Celebration Cakes</h3>
-            <p>Celebrate special moments with our handcrafted cakes. Enjoy a 15% discount on all celebration cakes this week.</p>
-            </div>
-            <div class="offer-card">
-            <h3>Cookie Combo: Mix & Match 3 for $10</h3>
-            <p>Indulge in our freshly baked cookies. Choose any three varieties for just $10. A sweet treat for any time of day!</p>
-            </div>
-            <div class="offer-card">
-            <h3>Bread Lovers: Loaf + Spread Offer</h3>
-            <p>Purchase any fresh loaf of bread and get a jar of our homemade jam or spread for half price!</p>
-            </div>
-            <div class="offer-card">
-            <h3>Weekend Treat: Family Pack Discount</h3>
-            <p>Enjoy our weekend family pack - includes a variety of pastries and a small cake, all at a special discounted price.</p>
-            </div>
+        </div> 
+        <!-- END OF FAQ SECTION -->
+
+
+       <!-- GALLERY  SECTION-->
+        <div id="gallery-container">
+        <h1 class="form-title"> Our <span>Gallery</span> </h1>
+        <div class="gallery" id="gallery"></div>
+
+        <div class="gallerypopup" id="galleryimagePopup">
+            <h2 class="gallerypopup-title" id="gallerypopupTitle"></h2>
+            <div class="gallerypopupImages" id="gallerypopupImages"></div>
+            <button class="galleryclose-button form-button" onclick="closeGalleryPopup()" >Close</button>
+        </div>
+
+        <div class="galleryoverlay" id="galleryoverlay"></div>
        </div>
-      </div>
-  <!-- form -->
-  <div class="bg-form-background">
-    <div class="form-container" id="contact">
-        <div class="form-header">
-            <h1 class="form-title">Contact <span> Us</span></h1>
+       <!-- END OF GALLERY SECTION -->
+
+    
+       <!-- FEEDBACK AND RATING -->
+        <div class="feedback-container"  id="feedback">
+            <h1 class="form-title">Rate Our <span>Products</span></h1>
+            <div class="rating-stars">
+                <span class="star" data-rating="1">&#9733;</span>
+                <span class="star" data-rating="2">&#9733;</span>
+                <span class="star" data-rating="3">&#9733;</span>
+                <span class="star" data-rating="4">&#9733;</span>
+                <span class="star" data-rating="5">&#9733;</span>
+            </div>
+            <textarea id="feedback" placeholder="Enter your feedback" rows="10"></textarea>
+        
+            <button id="submit-feedback" class="form-button">Submit Feedback</button>
+
+            <div id="feedback-display">
+                <h2>User Feedback:</h2>
+            </div>
         </div>
-        <div class="form-wrapper">
-            <form class="form" id="contactForm">
-                <div class="form-group">
-                    <label for="name" class="form-label">Full Name</label>
-                    <input type="text" id="name" name="name" class="form-input" required>
+        <!-- END OF FEEDBACK SECTION -->
+
+
+        <!-- OFFER LISTING SECTION -->
+        <div class="offer-conatiner" id="offerlisting">
+            <h1 class="form-title">Offer <span>Listing</span> </h1>
+            <div class="offer-cards">
+                <div class="offer-card">
+                <h3>Morning Delight: Buy 2 Pastries, Get 1 Free!</h3>
+                <p>Start your day with our delicious pastries! Buy any two and get a third one on us. Perfect with your morning coffee.</p>
                 </div>
-                <div class="form-row">
-                   
-                    <div class="form-col">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" id="email" name="email" class="form-input" required>
+                <div class="offer-card">
+                <h3>Cake Special: 15% Off All Celebration Cakes</h3>
+                <p>Celebrate special moments with our handcrafted cakes. Enjoy a 15% discount on all celebration cakes this week.</p>
+                </div>
+                <div class="offer-card">
+                <h3>Cookie Combo: Mix & Match 3 for $10</h3>
+                <p>Indulge in our freshly baked cookies. Choose any three varieties for just $10. A sweet treat for any time of day!</p>
+                </div>
+                <div class="offer-card">
+                <h3>Bread Lovers: Loaf + Spread Offer</h3>
+                <p>Purchase any fresh loaf of bread and get a jar of our homemade jam or spread for half price!</p>
+                </div>
+                <div class="offer-card">
+                <h3>Weekend Treat: Family Pack Discount</h3>
+                <p>Enjoy our weekend family pack - includes a variety of pastries and a small cake, all at a special discounted price.</p>
+                </div>
+        </div>
+        </div>
+        <!-- END OF OFFER LISTING SECTION -->
+
+
+       <!-- CONTACT SECTION -->
+        <div class="bg-form-background" >
+            <div class="form-container" id="contact">
+                <div class="form-header">
+                    <h1 class="form-title">Contact <span> Us</span></h1>
+                </div>
+                <div class="form-wrapper">
+                    <form class="form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-row">
+                        
+                            <div class="form-col">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+                        </div>
+                        
+                    
+                        <div class="form-group">
+                            <label for="project" class="form-label">Message</label>
+                            <textarea type="text" id="project" name="project" rows="10" placeholder="Tell us more about request" class="form-input" required></textarea>
+                        </div>
+                        <div class="form-button-container">
+                            <button type="submit" class="form-button">
+                                Send Message
+                                <i class="fas fa-location-arrow"></i>
+                            </button>
+                            <div class="conmpanydetails">
+                                <h6>Company email: bakerbite@gmil.com</h6>
+                                <h6>Company Address: No12 adori street, Abuja, Nigeria</h6>
+                                <h6>contact number: +23481000745382</h6>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-icon-container">
+                                <svg class="modal-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                </svg>
+                            </div>
+                            <div class="modal-text">
+                                <p>
+                                    Your request has been received by our team. We will get back to you as soon as possible with further information regarding your submission.
+                                </p>
+                                <button id="modalClose" class="modal-button">Okay</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <!-- END OF CONTACT SECTION -->
+
+
+            <!-- SITE MAP -->
+            <h1 class="form-title">Site<span> Map</span></h1>
+            <header>
                 
-            
-                <div class="form-group">
-                    <label for="project" class="form-label">Message</label>
-                    <textarea type="text" id="project" name="project" rows="10" placeholder="Tell us more about request" class="form-input" required></textarea>
-                </div>
-                <div class="form-button-container">
-                    <button type="submit" class="form-button">
-                        Send Message
-                        <i class="fas fa-location-arrow"></i>
-                    </button>
-                    <div class="conmpanydetails">
-                        <h6>Company email: bakerbite@gmil.com</h6>
-                        <h6>Company Address: No12 adori street, Abuja, Nigeria</h6>
-                        <h6>contact number: +23481000745382</h6>
-                    </div>
-                </div>
-            </form>
+                <div class="sitemap" id="sitemap">
+                <ul class="sitemapul">
+                    <li class="li1"><a href="/" class="logo" >Bakers Bite</a></li>
+                    <li ><a href="/" class="li1">Home</a></li>
+                    <li class="li"><a href="#about" class="li1">About Us</a></li>
 
-            <div id="myModal" class="modal">
-                <div class="modal-content">
-                    <div class="modal-icon-container">
-                        <svg class="modal-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                    </div>
-                    <div class="modal-text">
-                        <p>
-                            Your request has been received by our team. We will get back to you as soon as possible with further information regarding your submission.
-                        </p>
-                        <button id="modalClose" class="modal-button">Okay</button>
-                    </div>
+                <li class="li1"><a href="#gallery-container" class="li1">Gallery</a>
+                    <ul>
+                        <li class="li"><a href="#gallery-container">Cakes gallery</a></li>
+                        <li class="li"><a href="#gallery-container">Pastries Galler</a></li>
+                        <li class="li"><a href="#gallery-container">Cookies Gallery</a></li>
+                        <li class="li"><a href="#gallery-container">Pie Gallery</a></li>
+                    
+                    </ul>
+                    </li>
+                    <li class="li1" ><a href="#product" class="li1">Products</a>
+                        <ul>
+                        <li class="li"><a href="#product">Cakes</a></li>
+                        <li class="li"><a href="#product">Cookies</a></li>
+                        <li class="li"><a href="#product">Pastries</a></li>
+                        <li class="li"><a href="#product">Pies</a></li>
+                        <li class="li"><a href="#product">Cupcakes</a></li>
+                        
+                        </ul>
+                    </li>
+                    <li class="li" ><a href="#faq" class="li1">FAQ</a></li>
+                    <li ><a href="#feedback" class="li1">Feedback|Rating</a></li>
+                    <li class="li"><a href="#offerlisting" class="li1">OfferListing</a></li>
+                    <li class="li" ><a href="#contact" class="li1">Contact Us</a></li>
+                
+                    
+                    <li class="li"><a href="#sitemap" class="li1">Sitemap</a></li>
+                </ul>
                 </div>
-            </div>
-        </div>
-    </div>
-
+            </header>
+            <!-- END OF SITE MAP SECTION -->
      
-         <!-- footer -->
-        <footer>
-            <div class="footerlinks">
-            <div class="logo">
-                <img src="images/logo.png" alt="" width="90">
-            </div>
-            <ul class="footer-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#about">Product</a></li>
-            </ul>
-        </div>
-            <div class="footer-bottom" >
-                &copy; <span id="currentYear">2025</span> Sweet bakerz bite. All rights reserved.
-            </div>
-            <div id="ticker">
-                <div id="ticker-content">
-                    <span id="date-time"></span>
-                    <span id="location-display"></span>
+            <!-- FOOTER SECTION -->
+            <footer>
+                <div class="footerlinks">
+                <div class="logo">
+                    <img src="images/logo.png" alt="" width="90">
                 </div>
-              </div>
-        </footer> 
-        
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#about">Product</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#faq">SiteMAp</a></li>
+                </ul>
+            </div>
+                <div class="footer-bottom" >
+                    &copy; <span id="currentYear">2025</span> Sweet bakerz bite. All rights reserved.
+                </div>
+                <div id="ticker">
+                    <div id="ticker-content">
+                        <span id="date-time"></span>
+                        <span id="location-display"></span>
+                    </div>
+                </div>
+            </footer> 
+           <!-- END OF FOOTER SECTION -->
         
 
-    <script src="index.js"></script>
-    <script src="js/navbar.js"></script>
-    <script src="js/gallery.js"></script>
-    <script src="js/scrolling-sticker.js"></script>
+           <!-- SCRIPT SECTION -->
+            <script src="index.js"></script>
+            <script src="js/navbar.js"></script>
+            <script src="js/gallery.js"></script>
+            <script src="js/merchandise.js"></script>
+            <script src="js/scrolling-sticker.js"></script>
+
+            <!-- END OF SCRIPT SECTION -->
 </body>
 </html>

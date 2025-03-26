@@ -1,16 +1,20 @@
+//  NUMBER OF TIMES VISTED THE WEBSITE
 let visitorCount = parseInt(localStorage.getItem('visitorCount')) || 0;
 
 // Increment and display the count
 visitorCount++;
 document.getElementById('count').textContent = visitorCount;
 
-// Save the updated count to localStorage
+// Saves the updated count to localStorage
 localStorage.setItem('visitorCount', visitorCount);
 
 
 
 
-// Form
+
+
+
+        //   CONTACT SECTION
 
       const form = document.getElementById('contactForm');
         const modal = document.getElementById('myModal');
@@ -20,7 +24,7 @@ localStorage.setItem('visitorCount', visitorCount);
             event.preventDefault(); // Prevent default form submission
             modal.style.display = "block";
 
-            // You would also want to clear the form here after successful submission
+        //   clears the form here after successful submission
             form.reset();
         });
 
@@ -36,7 +40,11 @@ localStorage.setItem('visitorCount', visitorCount);
 
 
         
-          //   Faq
+
+
+
+
+        //   FAQ SECTION
           const faqList = document.getElementById('faqList');
         let activeIndex = null;
 
