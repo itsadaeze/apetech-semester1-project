@@ -54,7 +54,7 @@
     font-size: 14px;
     letter-spacing: 0.03em;
     line-height: 23.1px;
-    display: none; /* Initially hide answers */
+    display: none; 
 }
 
 .faq-divider {

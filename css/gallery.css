@@ -1,4 +1,4 @@
-
+/* Gallery section */
 
 .gallery {
     display: flex;
@@ -88,6 +88,9 @@
     right: 10px;
     cursor: pointer;
 }
+/* end of gallery section */
+
+/* feedback section */
 
 .feedback-container {
     max-width: 800px;
@@ -135,6 +138,10 @@
     font-weight: bold;
 }
 
+/* end of feedback section */
+
+
+/* media query */
 @media only screen and (max-width: 765px) {
     .gallerycard{
         width: 90%;

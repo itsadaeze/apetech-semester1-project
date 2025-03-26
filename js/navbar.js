@@ -24,6 +24,9 @@ function toggleMenu() {
 }
 
 
+
+
+
 // PRODUCT SECTION
 async function fetchData() {
     const response = await fetch('json/product.json');

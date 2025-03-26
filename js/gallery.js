@@ -1,9 +1,6 @@
-const stars = document.querySelectorAll('.star');
-const feedbackTextarea = document.getElementById('feedback');
-const submitButton = document.getElementById('submit-feedback');
-const feedbackDisplay = document.getElementById('feedback-display');
+// Gallery section
 
-let currentRating = 0;
+
 
 
 
@@ -68,7 +65,17 @@ function closeGalleryPopup() {
     overlay.style.display = 'none';
 }
 
-// rating
+
+
+
+// Rating and feedback section
+
+const stars = document.querySelectorAll('.star');
+const feedbackTextarea = document.getElementById('feedback');
+const submitButton = document.getElementById('submit-feedback');
+const feedbackDisplay = document.getElementById('feedback-display');
+
+let currentRating = 0;
 stars.forEach(star => {
     star.addEventListener('click', function() {
         currentRating = parseInt(this.dataset.rating);
